@@ -1,51 +1,61 @@
 {
     "cbt":[
         {
+            "id":1,
             "question":"what's the second name for random motion",
             "answer":"brownian motion",
             "options":["oscillatory motion", "vibratory motion", "linear motion", "brownian motion"]
         },
         {
+            "id":2,
             "question":"Brass gets discoloured in air because of the presence of which of the following gases in air?",
             "answer":"Hydrogen sulphide",
             "options":["Oxygen", "Hydrogen sulphide", "Carbon dioxide", "Nitrogen"]
         },
         {
+            "id":3,
             "question":"Chlorophyll is a naturally occurring chelate compound in which central metal is",
             "answer":"magnesium",
             "options":["copper", "magnesium", "iron", "calcium"]
         },
         {
+            "id":4,
             "question":"Which of the following is a non metal that remains liquid at room temperature?",
             "answer":"Bromine",
             "options":["Phosphorous", "Bromine", "Chlorine", "Helium"]
         },
         {
+            "id":5,
             "question":"Which of the following is used in pencils?",
             "answer":"Graphite",
             "options":["Graphite", "Silicon", "Charcoal", "Phosphorous"]
         },
         {
+            "id":6,
             "question":"Which of the following metals forms an amalgam with other metals?",
             "answer":"Mercury",
             "options":["Tin", "Mercury", "Lead", "Zinc"]
         },
         {
+            "id":7,
             "question":"Chemical formula for water is",
             "answer":"H2O",
             "options":["NaAlO2", "H2O", "Al2O3", "CaSiO3"]
         },
         {
+            "id":8,
             "question":"The gas usually filled in the electric bulb is",
             "answer":"nitrogen",
             "options":["nitrogen", "hydrogen", "carbon dioxide", "oxygen"]
         },
         {
+            "id":9,
             "question":"Washing soda is the common name for",
             "answer":"Sodium carbonate",
             "options":["Sodium carbonate", "Calcium bicarbonate", "Sodium bicarbonate", "Calcium carbonate"]
         },
         {
+            "id":10,
             "question":"Which of the gas is not known as green house gas?",
             "answer":"Nitrous oxide",
             "options":["Methane", "Nitrous oxide", "Carbon dioxide", "Hydrogen"]
