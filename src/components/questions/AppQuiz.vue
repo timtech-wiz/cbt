@@ -12,11 +12,16 @@
                @chosen-value="handleOption($event)"
                />
                </AppQuestions>
+
+               <div v-if="quiz.count >10">
+                <ResultPage :score="score" />
+               </div>
+               
                  
                
             </div>
              </div>
-             {{score}}
+             
             <div class="m-6 mt-48">
                 <div class="flex justify-between w-24">
                     <router-link @click="quiz.count--" v-if="!maxQ.min" to="/quiz" class="mr-9 text-xl border
@@ -51,6 +56,7 @@
 import { useCbtQuiz } from '../../stores/CbtQuiz'
 import AppQuestions from './AppQuestions.vue'
 import AppOptions from './AppOptions.vue'
+import ResultPage from './ResultPage.vue'
 export default{
 
     data(){
@@ -94,7 +100,7 @@ export default{
         this.quiz.fillState();
         // console.log(this.chosen)
     },
-    components: { AppQuestions, AppOptions }
+    components: { AppQuestions, AppOptions, ResultPage }
 }
 
 </script>
